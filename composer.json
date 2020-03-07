@@ -1,0 +1,15 @@
+{
+  "name": "optinly/wordpress",
+  "description": "Simple plugin to show popups in wordpress websites",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Optinly\\": "",
+      "Optinly\\App\\": "App/",
+      "Optinly\\App\\Controllers\\": "App/Controllers/",
+      "Optinly\\App\\Controllers\\Admin\\": "App/Controllers/Admin/",
+      "Optinly\\App\\Models\\": "App/Models/",
+      "Optinly\\App\\Helpers\\": "App/Helpers/"
+    }
+  }
+}

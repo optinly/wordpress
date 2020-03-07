@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="593afebe-bec8-48bf-8c12-22d68a013144" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Assets/Css/admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Assets/Js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#611#1104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/Connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/Admin/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#78#83#0#PHP" expanded="true" />
+                <element signature="e#237#242#0#PHP" expanded="true" />
+                <element signature="e#272#277#0#PHP" expanded="true" />
+                <element signature="e#444#449#0#PHP" expanded="true" />
+                <element signature="e#486#491#0#PHP" expanded="true" />
+                <element signature="e#585#590#0#PHP" expanded="true" />
+                <element signature="e#707#712#0#PHP" expanded="true" />
+                <element signature="e#742#747#0#PHP" expanded="true" />
+                <element signature="e#1028#1033#0#PHP" expanded="true" />
+                <element signature="e#1076#1081#0#PHP" expanded="true" />
+                <element signature="e#1278#1283#0#PHP" expanded="true" />
+                <element signature="e#1356#1361#0#PHP" expanded="true" />
+                <element signature="e#1420#1425#0#PHP" expanded="true" />
+                <element signature="e#1867#1872#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/Admin/Main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="78" column="96" selection-start-line="78" selection-start-column="96" selection-end-line="78" selection-end-column="96" />
+              <folding>
+                <element signature="e#49#80#0#PHP" expanded="true" />
+                <element signature="e#234#464#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/optinly.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Api/optinlyApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+              <folding>
+                <element signature="e#466#1290#0#PHP" expanded="true" />
+                <element signature="e#1513#2958#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="e#31#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/admin/Settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4991">
+              <caret line="1210" selection-start-line="1210" selection-end-line="1210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/Site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#43#74#0#PHP" expanded="true" />
+                <element signature="e#955#960#0#PHP" expanded="true" />
+                <element signature="e#1199#1366#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="WordPress Main Plugin File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ajax</find>
+      <find>admin_sc</find>
+      <find>adminScripts</find>
+      <find>wp_</find>
+      <find>0p</find>
+      <find>0px</find>
+      <find>proPla</find>
+      <find>created_</find>
+      <find>order_placed_date_key_for_db</find>
+      <find>http://cf6fbc0b.ngrok.io</find>
+      <find>wp_print_scripts</find>
+      <find>retainful</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>0</replace>
+      <replace>http://1060e025.ngrok.io</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../woo_discount_rules_v2/v2</dir>
+      <dir>$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce</dir>
+      <dir>$PROJECT_DIR$/..</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/retainful-next-order-coupon-for-woocommerce.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/App/Controllers/Admin/Connection.php" />
+        <option value="$PROJECT_DIR$/App/Helpers/Template.php" />
+        <option value="$PROJECT_DIR$/App/Assets/css/admin.css" />
+        <option value="$PROJECT_DIR$/App/Api/Manage.php" />
+        <option value="$PROJECT_DIR$/App/Models/Connection.php" />
+        <option value="$PROJECT_DIR$/App/Router.php" />
+        <option value="$PROJECT_DIR$/App/Api/optinlyApi.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Site.php" />
+        <option value="$PROJECT_DIR$/App/Assets/Js/admin.js" />
+        <option value="$PROJECT_DIR$/App/Views/Admin/connection.php" />
+        <option value="$PROJECT_DIR$/App/Assets/Css/admin.css" />
+        <option value="$PROJECT_DIR$/App/Controllers/Admin/Main.php" />
+        <option value="$PROJECT_DIR$/optinly.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1076" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="optinly" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="optinly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/Helpers" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Helpers" />
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="593afebe-bec8-48bf-8c12-22d68a013144" name="Default Changelist" comment="" />
+      <created>1573015204850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573015204850</updated>
+      <workItem from="1573015206979" duration="548000" />
+      <workItem from="1573015886519" duration="2117000" />
+      <workItem from="1573020383276" duration="16868000" />
+      <workItem from="1573126208209" duration="763000" />
+      <workItem from="1577251799683" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20323000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1076" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/../../..</wordpressPath>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/woo-projects/alter/retainful-next-order-coupon-for-woocommerce/src/premium/templates/exit-intent-popups/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woo_discount_rules_v2/woo-discount-rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+          <folding>
+            <element signature="e#2627#3283#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/retainful-next-order-coupon-for-woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woo_discount_rules_v2/v2/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Helpers/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#175#268#0#PHP" expanded="true" />
+            <element signature="e#360#453#0#PHP" expanded="true" />
+            <element signature="e#521#586#0#PHP" expanded="true" />
+            <element signature="e#644#715#0#PHP" expanded="true" />
+            <element signature="e#771#841#0#PHP" expanded="true" />
+            <element signature="e#896#1410#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woo_discount_rules_v2/v2/App/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding>
+            <element signature="e#27#66#0#PHP" expanded="true" />
+            <element signature="e#475#845#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woo_discount_rules_v2/v2/Assets/Js/admin_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#208#424#0" expanded="true" />
+            <element signature="e#253#416#0" expanded="true" />
+            <element signature="e#502#1061#0" expanded="true" />
+            <element signature="e#688#927#0" expanded="true" />
+            <element signature="e#1158#1388#0" expanded="true" />
+            <element signature="e#1272#1370#0" expanded="true" />
+            <element signature="e#1736#2316#0" expanded="true" />
+            <element signature="e#1903#1955#0" expanded="true" />
+            <element signature="e#1996#2201#0" expanded="true" />
+            <element signature="e#2410#2626#0" expanded="true" />
+            <element signature="e#2455#2618#0" expanded="true" />
+            <element signature="e#2709#3157#0" expanded="true" />
+            <element signature="e#2898#3149#0" expanded="true" />
+            <element signature="e#3247#3487#0" expanded="true" />
+            <element signature="e#3363#3469#0" expanded="true" />
+            <element signature="e#3610#4780#0" expanded="true" />
+            <element signature="e#3781#3832#0" expanded="true" />
+            <element signature="e#3873#4086#0" expanded="true" />
+            <element signature="e#4183#4263#0" expanded="true" />
+            <element signature="e#4901#5725#0" expanded="true" />
+            <element signature="e#5816#6032#0" expanded="true" />
+            <element signature="e#5861#6024#0" expanded="true" />
+            <element signature="e#6106#6954#0" expanded="true" />
+            <element signature="e#6394#6574#0" expanded="true" />
+            <element signature="e#7045#7188#0" expanded="true" />
+            <element signature="e#7092#7180#0" expanded="true" />
+            <element signature="e#7298#7435#0" expanded="true" />
+            <element signature="e#7546#7817#0" expanded="true" />
+            <element signature="e#7921#8688#0" expanded="true" />
+            <element signature="e#7938#8680#0" expanded="true" />
+            <element signature="e#8142#8279#0" expanded="true" />
+            <element signature="e#8318#8670#0" expanded="true" />
+            <element signature="e#8787#9825#0" expanded="true" />
+            <element signature="e#8931#9807#0" expanded="true" />
+            <element signature="e#9145#9292#0" expanded="true" />
+            <element signature="e#9335#9793#0" expanded="true" />
+            <element signature="e#9666#9667#0" expanded="true" />
+            <element signature="e#9750#9751#0" expanded="true" />
+            <element signature="e#9933#11911#0" expanded="true" />
+            <element signature="e#10149#11903#0" expanded="true" />
+            <element signature="e#10169#10355#0" expanded="true" />
+            <element signature="e#10454#10591#0" expanded="true" />
+            <element signature="e#10630#11893#0" expanded="true" />
+            <element signature="e#12019#13196#0" expanded="true" />
+            <element signature="e#12041#13114#0" expanded="true" />
+            <element signature="e#12197#12198#0" expanded="true" />
+            <element signature="e#12240#12241#0" expanded="true" />
+            <element signature="e#12265#12402#0" expanded="true" />
+            <element signature="e#12306#12307#0" expanded="true" />
+            <element signature="e#12387#12388#0" expanded="true" />
+            <element signature="e#12422#13104#0" expanded="true" />
+            <element signature="e#12586#12915#0" expanded="true" />
+            <element signature="e#12615#12896#0" expanded="true" />
+            <element signature="e#12969#13090#0" expanded="true" />
+            <element signature="e#13296#14147#0" expanded="true" />
+            <element signature="e#13421#13542#0" expanded="true" />
+            <element signature="e#13458#13459#0" expanded="true" />
+            <element signature="e#13531#13532#0" expanded="true" />
+            <element signature="e#13558#14141#0" expanded="true" />
+            <element signature="e#13702#14011#0" expanded="true" />
+            <element signature="e#13727#13996#0" expanded="true" />
+            <element signature="e#14061#14062#0" expanded="true" />
+            <element signature="e#14130#14131#0" expanded="true" />
+            <element signature="e#14353#15052#0" expanded="true" />
+            <element signature="e#14394#15044#0" expanded="true" />
+            <element signature="e#14506#14953#0" expanded="true" />
+            <element signature="e#14585#14586#0" expanded="true" />
+            <element signature="e#14636#14637#0" expanded="true" />
+            <element signature="e#14758#14911#0" expanded="true" />
+            <element signature="e#14803#14804#0" expanded="true" />
+            <element signature="e#14892#14893#0" expanded="true" />
+            <element signature="e#15171#15831#0" expanded="true" />
+            <element signature="e#15212#15823#0" expanded="true" />
+            <element signature="e#15324#15732#0" expanded="true" />
+            <element signature="e#15403#15404#0" expanded="true" />
+            <element signature="e#15454#15455#0" expanded="true" />
+            <element signature="e#15537#15690#0" expanded="true" />
+            <element signature="e#15582#15583#0" expanded="true" />
+            <element signature="e#15671#15672#0" expanded="true" />
+            <element signature="e#15969#16548#0" expanded="true" />
+            <element signature="e#16070#16465#0" expanded="true" />
+            <element signature="e#16141#16142#0" expanded="true" />
+            <element signature="e#16184#16185#0" expanded="true" />
+            <element signature="e#16294#16431#0" expanded="true" />
+            <element signature="e#16335#16336#0" expanded="true" />
+            <element signature="e#16416#16417#0" expanded="true" />
+            <element signature="e#16689#17233#0" expanded="true" />
+            <element signature="e#16790#17150#0" expanded="true" />
+            <element signature="e#16861#16862#0" expanded="true" />
+            <element signature="e#16904#16905#0" expanded="true" />
+            <element signature="e#16979#17116#0" expanded="true" />
+            <element signature="e#17020#17021#0" expanded="true" />
+            <element signature="e#17101#17102#0" expanded="true" />
+            <element signature="e#17364#19533#0" expanded="true" />
+            <element signature="e#17405#19525#0" expanded="true" />
+            <element signature="e#17620#17976#0" expanded="true" />
+            <element signature="e#17701#17918#0" expanded="true" />
+            <element signature="e#17743#17895#0" expanded="true" />
+            <element signature="e#18114#18474#0" expanded="true" />
+            <element signature="e#18195#18416#0" expanded="true" />
+            <element signature="e#18237#18393#0" expanded="true" />
+            <element signature="e#18618#18985#0" expanded="true" />
+            <element signature="e#18741#18966#0" expanded="true" />
+            <element signature="e#18783#18943#0" expanded="true" />
+            <element signature="e#19127#19498#0" expanded="true" />
+            <element signature="e#19250#19479#0" expanded="true" />
+            <element signature="e#19292#19456#0" expanded="true" />
+            <element signature="e#19699#19832#0" expanded="true" />
+            <element signature="e#19922#20720#0" expanded="true" />
+            <element signature="e#19967#20712#0" expanded="true" />
+            <element signature="e#20105#20242#0" expanded="true" />
+            <element signature="e#20281#20702#0" expanded="true" />
+            <element signature="e#20828#20922#0" expanded="true" />
+            <element signature="e#21033#21552#0" expanded="true" />
+            <element signature="e#21078#21544#0" expanded="true" />
+            <element signature="e#21216#21353#0" expanded="true" />
+            <element signature="e#21392#21534#0" expanded="true" />
+            <element signature="e#21661#22690#0" expanded="true" />
+            <element signature="e#21706#22682#0" expanded="true" />
+            <element signature="e#21844#21981#0" expanded="true" />
+            <element signature="e#22020#22672#0" expanded="true" />
+            <element signature="e#22796#23082#0" expanded="true" />
+            <element signature="e#23225#23454#0" expanded="true" />
+            <element signature="e#23574#23681#0" expanded="true" />
+            <element signature="e#23804#24064#0" expanded="true" />
+            <element signature="e#23888#24057#0" expanded="true" />
+            <element signature="e#23918#24046#0" expanded="true" />
+            <element signature="e#24119#24383#0" expanded="true" />
+            <element signature="e#24203#24376#0" expanded="true" />
+            <element signature="e#24233#24365#0" expanded="true" />
+            <element signature="e#24445#24716#0" expanded="true" />
+            <element signature="e#24532#24709#0" expanded="true" />
+            <element signature="e#24562#24698#0" expanded="true" />
+            <element signature="e#24775#25050#0" expanded="true" />
+            <element signature="e#24862#25043#0" expanded="true" />
+            <element signature="e#24892#25032#0" expanded="true" />
+            <element signature="e#25095#25151#0" expanded="true" />
+            <element signature="e#25294#25619#0" expanded="true" />
+            <element signature="e#25803#26810#0" expanded="true" />
+            <element signature="e#26692#26787#0" expanded="true" />
+            <element signature="e#26932#27339#0" expanded="true" />
+            <element signature="e#27469#27645#0" expanded="true" />
+            <element signature="e#27809#28191#0" expanded="true" />
+            <element signature="e#28340#28855#0" expanded="true" />
+            <element signature="e#29010#29186#0" expanded="true" />
+            <element signature="e#29261#29262#0" expanded="true" />
+            <element signature="e#29291#29292#0" expanded="true" />
+            <element signature="e#29380#29660#0" expanded="true" />
+            <element signature="e#29735#30020#0" expanded="true" />
+            <element signature="e#29792#30014#0" expanded="true" />
+            <element signature="e#29885#29886#0" expanded="true" />
+            <element signature="e#29954#29955#0" expanded="true" />
+            <element signature="e#30063#30994#0" expanded="true" />
+            <element signature="e#30081#30986#0" expanded="true" />
+            <element signature="e#30101#30232#0" expanded="true" />
+            <element signature="e#30331#30468#0" expanded="true" />
+            <element signature="e#30507#30976#0" expanded="true" />
+            <element signature="e#31202#31355#0" expanded="true" />
+            <element signature="e#31285#31347#0" expanded="true" />
+            <element signature="e#31437#31838#0" expanded="true" />
+            <element signature="e#31966#32554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/Api/AbandonedCart/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/fields/cmb-field-retainful-app/cmb-field-retainful-app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="n#CMB2_Field_Retainful_App#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/fields/cmb-field-retainful-app/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1424">
+          <caret line="62" column="11" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="62" selection-end-column="11" />
+          <folding>
+            <element signature="e#68#398#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#671#770#0" expanded="true" />
+            <element signature="e#1458#2763#0" expanded="true" />
+            <element signature="e#1678#2753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woo_discount_rules_v2/v2/App/Controllers/Admin/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="147" column="44" lean-forward="true" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+          <folding>
+            <element signature="e#44#93#0#PHP" expanded="true" />
+            <element signature="e#428#493#0#PHP" expanded="true" />
+            <element signature="e#544#972#0#PHP" expanded="true" />
+            <element signature="e#1061#1349#0#PHP" expanded="true" />
+            <element signature="e#1406#1887#0#PHP" expanded="true" />
+            <element signature="e#1967#2148#0#PHP" expanded="true" />
+            <element signature="e#2221#2289#0#PHP" expanded="true" />
+            <element signature="e#2358#3070#0#PHP" expanded="true" />
+            <element signature="e#2701#3026#1#PHP" expanded="true" />
+            <element signature="e#3143#3231#0#PHP" expanded="true" />
+            <element signature="e#3310#3604#0#PHP" expanded="true" />
+            <element signature="e#6546#6947#0#PHP" expanded="true" />
+            <element signature="e#7019#7370#0#PHP" expanded="true" />
+            <element signature="e#7152#7288#1#PHP" expanded="true" />
+            <element signature="e#7439#7842#0#PHP" expanded="true" />
+            <element signature="e#7907#8274#0#PHP" expanded="true" />
+            <element signature="e#8040#8192#1#PHP" expanded="true" />
+            <element signature="e#8856#9194#0#PHP" expanded="true" />
+            <element signature="e#9260#10246#0#PHP" expanded="true" />
+            <element signature="e#10325#10704#0#PHP" expanded="true" />
+            <element signature="e#10476#10616#1#PHP" expanded="true" />
+            <element signature="e#10757#12052#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/library/RetainfulApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="e#352#524#0#PHP" expanded="true" />
+            <element signature="e#1461#2136#0#PHP" expanded="true" />
+            <element signature="e#2387#4846#0#PHP" expanded="true" />
+            <element signature="e#4910#5172#0#PHP" expanded="true" />
+            <element signature="e#5284#5519#0#PHP" expanded="true" />
+            <element signature="e#5593#5757#0#PHP" expanded="true" />
+            <element signature="e#5948#6642#0#PHP" expanded="true" />
+            <element signature="e#6858#7558#0#PHP" expanded="true" />
+            <element signature="e#7720#8198#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/Api/AbandonedCart/RestApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="328" column="25" lean-forward="true" selection-start-line="328" selection-start-column="25" selection-end-line="328" selection-end-column="25" />
+          <folding>
+            <element signature="e#11291#11669#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/Api/AbandonedCart/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="175" column="29" lean-forward="true" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+          <folding>
+            <element signature="e#86#151#0#PHP" expanded="true" />
+            <element signature="e#247#1648#0#PHP" expanded="true" />
+            <element signature="e#1723#2259#0#PHP" expanded="true" />
+            <element signature="e#2357#6686#0#PHP" expanded="true" />
+            <element signature="e#10692#11358#0#PHP" expanded="true" />
+            <element signature="e#11479#12070#0#PHP" expanded="true" />
+            <element signature="e#12246#13045#0#PHP" expanded="true" />
+            <element signature="e#13147#13824#0#PHP" expanded="true" />
+            <element signature="e#13936#15025#0#PHP" expanded="true" />
+            <element signature="e#15136#16212#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Assets/Css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Assets/Js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#611#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Admin/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#78#83#0#PHP" expanded="true" />
+            <element signature="e#237#242#0#PHP" expanded="true" />
+            <element signature="e#272#277#0#PHP" expanded="true" />
+            <element signature="e#444#449#0#PHP" expanded="true" />
+            <element signature="e#486#491#0#PHP" expanded="true" />
+            <element signature="e#585#590#0#PHP" expanded="true" />
+            <element signature="e#707#712#0#PHP" expanded="true" />
+            <element signature="e#742#747#0#PHP" expanded="true" />
+            <element signature="e#1028#1033#0#PHP" expanded="true" />
+            <element signature="e#1076#1081#0#PHP" expanded="true" />
+            <element signature="e#1278#1283#0#PHP" expanded="true" />
+            <element signature="e#1356#1361#0#PHP" expanded="true" />
+            <element signature="e#1420#1425#0#PHP" expanded="true" />
+            <element signature="e#1867#1872#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Admin/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="78" column="96" selection-start-line="78" selection-start-column="96" selection-end-line="78" selection-end-column="96" />
+          <folding>
+            <element signature="e#49#80#0#PHP" expanded="true" />
+            <element signature="e#234#464#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Api/optinlyApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+          <folding>
+            <element signature="e#466#1290#0#PHP" expanded="true" />
+            <element signature="e#1513#2958#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#31#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../retainful-next-order-coupon-for-woocommerce/src/admin/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4991">
+          <caret line="1210" selection-start-line="1210" selection-end-line="1210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#43#74#0#PHP" expanded="true" />
+            <element signature="e#955#960#0#PHP" expanded="true" />
+            <element signature="e#1199#1366#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optinly.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

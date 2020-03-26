@@ -6,7 +6,6 @@ use Exception;
 
 class optinlyApi
 {
-    //protected $api_url = "http://1060e025.ngrok.io/v1/";
     protected $api_url = "https://api.optinly.com/v1/";
     public $app_url = "https://app.optinly.com/";
     public $popup_js_url = "https://cdn.optinly.com/v1/optinly.js";

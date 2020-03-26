@@ -27,7 +27,7 @@ class Main
         }
         //Enqueue css
         wp_enqueue_style(OPTINLY_SLUG . '-admin', OPTINLY_BASE_URL . 'App/Assets/Css/admin.css', array(), OPTINLY_VERSION);
-        if (!wp_script_is(RNOC_PLUGIN_PREFIX . 'track-user-cart', 'enqueued')) {
+        if (!wp_script_is(OPTINLY_SLUG . 'track-user-cart', 'enqueued')) {
             //Enqueue js
             wp_enqueue_script(OPTINLY_SLUG . '-admin', OPTINLY_BASE_URL . 'App/Assets/Js/admin.js', array('jquery'), OPTINLY_VERSION);
             $optinly_data = array(

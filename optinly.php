@@ -2,7 +2,7 @@
 /**
  * Plugin name: Optinly
  * Plugin URI: https://www.optinly.com
- * Description: Shop popups on your site
+ * Description: Show popups on your site
  * Author: Optinly
  * Author URI: https://www.optinly.com
  * Version: 2.0.2

@@ -11,6 +11,7 @@ class ComposerStaticInit61319fe46d93afe3979cb32c3b7a65ec
         array (
             'Optinly\\App\\Models\\' => 19,
             'Optinly\\App\\Helpers\\' => 20,
+            'Optinly\\App\\Controllers\\Admin\\' => 30,
             'Optinly\\App\\Controllers\\' => 24,
             'Optinly\\App\\' => 12,
             'Optinly\\' => 8,
@@ -25,6 +26,10 @@ class ComposerStaticInit61319fe46d93afe3979cb32c3b7a65ec
         'Optinly\\App\\Helpers\\' => 
         array (
             0 => __DIR__ . '/../..' . '/App/Helpers',
+        ),
+        'Optinly\\App\\Controllers\\Admin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Controllers/Admin',
         ),
         'Optinly\\App\\Controllers\\' => 
         array (

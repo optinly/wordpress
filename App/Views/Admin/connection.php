@@ -28,7 +28,7 @@
                     <?php
                     if (($is_app_connected == 1)) {
                         ?>
-                        <span style="color: green"><?php _e('App successfully connected to Uberly!'); ?></span>
+                        <span style="color: green"><?php _e('App successfully connected to Optinly!'); ?></span>
                         <?php
                     }
                     ?>

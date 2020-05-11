@@ -5,7 +5,7 @@
  * Description: Show popups on your site
  * Author: Optinly
  * Author URI: https://www.optinly.com
- * Version: 2.0.2
+ * Version: 1.0.2
  * Slug: optinly-for-wordpress
  * Text Domain: optinly-for-wordpress
  * Domain Path: /i18n/languages/
@@ -14,7 +14,7 @@
  * Contributers: Sathyaseelan
  */
 //Define plugin version
-defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.0');
+defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.2');
 //Define plugin text domain
 defined('OPTINLY_TEXT_DOMAIN') or define('OPTINLY_TEXT_DOMAIN', 'optinly-for-wordpress');
 //Define plugin text domain

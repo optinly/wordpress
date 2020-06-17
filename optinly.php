@@ -2,7 +2,7 @@
 /**
  * Plugin name: Optinly
  * Plugin URI: https://www.optinly.com
- * Description: Show popups on your site
+ * Description: Popups, flyers, banners, sidebars for WordPress
  * Author: Optinly
  * Author URI: https://www.optinly.com
  * Version: 1.0.2

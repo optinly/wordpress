@@ -5,11 +5,11 @@ Tags:
 Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: trunk
-Requires PHP: 5.4
+Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Nurture and engage with your visitors and convert them into customers with Optinly.
 
 == Description ==
 
@@ -93,12 +93,16 @@ This section describes how to install the plugin and get it working.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Frequently Asked Questions ==
+= 1. I have downloaded the plugin, but don't have an Optinly account. How can I get one? =
 
+You can sign up for an account by visiting [Optinly](https://app.optinly.com)
 
 == Screenshots ==
 
 
 == Changelog ==
+= 1.0.0 =
+* Initial release
 
 
 == Upgrade Notice ==

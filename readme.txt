@@ -1,7 +1,7 @@
 === Optinly ===
 Contributors: Optinly
 Donate link: 
-Tags: 
+Tags: popups, optins
 Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: trunk

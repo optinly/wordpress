@@ -4,14 +4,13 @@
  * Plugin URI: https://www.optinly.com
  * Description: Popups, flyers, banners, sidebars for WordPress
  * Author: Optinly
- * Author URI: https://www.optinly.com
  * Version: 1.0.2
  * Slug: optinly-for-wordpress
  * Text Domain: optinly-for-wordpress
  * Domain Path: /i18n/languages/
  * Plugin URI: https://www.optinly.com
  * Requires at least: 4.6.1
- * Contributers: Sathyaseelan
+ * Contributers: Optinly
  */
 //Define plugin version
 defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.2');

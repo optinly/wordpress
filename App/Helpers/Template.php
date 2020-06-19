@@ -1,6 +1,7 @@
 <?php
 
 namespace Optinly\App\Helpers;
+defined('ABSPATH') or die;
 
 class Template
 {

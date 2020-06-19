@@ -1,6 +1,7 @@
 <?php
 
 namespace Optinly\App\Models;
+defined('ABSPATH') or die;
 
 class Connection
 {

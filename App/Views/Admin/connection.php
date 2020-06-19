@@ -1,3 +1,6 @@
+<?php
+defined('ABSPATH') or die;
+?>
 <div class="optinly-section">
     <div class="optinly-container">
         <h2><?php _e("Optinly connection",OPTINLY_TEXT_DOMAIN); ?></h2>

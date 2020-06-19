@@ -12,6 +12,7 @@
  * Requires at least: 4.6.1
  * Contributers: Optinly
  */
+defined('ABSPATH') or die;
 //Define plugin version
 defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.2');
 //Define plugin text domain

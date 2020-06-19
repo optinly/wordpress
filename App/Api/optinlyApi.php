@@ -1,6 +1,7 @@
 <?php
 
 namespace Optinly\App\Api;
+defined('ABSPATH') or die;
 
 use Exception;
 

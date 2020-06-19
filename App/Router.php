@@ -1,6 +1,7 @@
 <?php
 
 namespace Optinly\App;
+defined('ABSPATH') or die;
 
 use Optinly\App\Controllers\Admin\Main;
 use Optinly\App\Controllers\Site;

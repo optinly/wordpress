@@ -10,7 +10,6 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="Optinly\" />
       <sourceFolder url="file://$MODULE_DIR$/App/Models" isTestSource="false" packagePrefix="Optinly\App\Models\" />
       <sourceFolder url="file://$MODULE_DIR$/App" isTestSource="false" packagePrefix="Optinly\App\" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

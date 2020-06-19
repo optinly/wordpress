@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="593afebe-bec8-48bf-8c12-22d68a013144" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Api/optinlyApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Api/optinlyApi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Helpers/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/Admin/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/Admin/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optinly.php" beforeDir="false" afterPath="$PROJECT_DIR$/optinly.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +75,7 @@
       <workItem from="1577251799683" duration="27000" />
       <workItem from="1585221793292" duration="2068000" />
       <workItem from="1589184275759" duration="630000" />
-      <workItem from="1592540989474" duration="856000" />
+      <workItem from="1592540989474" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="optinly issues fixed">
       <created>1585226453987</created>
@@ -92,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585226453987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- ABSPATH added on all files">
+      <created>1592541972853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592541972853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,21 +99,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="optinly issues fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="optinly issues fixed" />
+    <MESSAGE value="- ABSPATH added on all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- ABSPATH added on all files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="279" y="23" width="881" height="797" key="CommitChangelistDialog2" timestamp="1585226453713">
+    <state x="279" y="23" width="881" height="797" key="CommitChangelistDialog2" timestamp="1592541972709">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="279" y="23" width="881" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1585226453713" />
+    <state x="279" y="23" width="881" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1592541972709" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1592540999858">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1592540999858" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1585226455576">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1592541974356">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1585226455576" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1592541974356" />
     <state x="160" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592541894875">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

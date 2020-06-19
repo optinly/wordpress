@@ -3,3 +3,4 @@
 vendor
 vendor/*
 /vendor/*
+.DS_Store

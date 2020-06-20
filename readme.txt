@@ -9,22 +9,22 @@ Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Nurture and engage with your visitors and convert them into customers with Optinly.
+Create popups and optin-in forms effortlessly to grow your subscribers, leads and conversions with Optinly.
 
 == Description ==
+[Optinly](https://www.optinly.com) is a goal-based WordPress popup plugin with over 10+ inbuilt marketing scenarios making the overall task easy for marketers. 
 
 Wouldn’t it be nice to have a WordPress popup plugin that has ready to use marketing scenarios with 30+ goal-based WordPress popup templates - skipping apart all the build from scratch stuff and have everything you need right in front of you? And that’s what Optinly is all about - helping businesses & marketers capture leads, drive conversions and engage visitors by making use of the 10+ marketing growth scenarios that come with 30+ goal-based WordPress popup templates.
 
-It’s true that 70% of visitors visit your website and never come back. And businesses can’t afford to lose potential customers like that. In an effort to capture visitors & email id’s, marketers use WordPress popup plugins. 
+It’s true that 70% of visitors visit your website and never come back. And businesses can’t afford to lose potential customers like that. In an effort to capture visitors & email id’s, marketers use WordPress popup plugins.
 
 But the thing is, most marketers find it difficult to create WordPress popups that suit a particular scenario. And they end up creating inappropriate popups. This could increase the annoyance factor and bounce rate on their website. And Optinly puts a stop to your worst nightmare. 
 
-==World’s First Goal-Based WordPress Popup Plugin==
+==Goal-Based WordPress Popup Plugin==
 
-Optinly is the world’s first goal-based WordPress popup plugin with over 10+ inbuilt marketing scenarios making the overall task easy for marketers. Also, every marketing goal comes with a certain set of templates. We believe when there’s everything marketers want, right in front of them, like in Optinly, they could drive conversions and capture leads 5x times than normal. Below mentioned are Optinly’s inbuilt marketing goals
+We believe when there’s everything marketers want, right in front of them, like in Optinly, they could drive conversions and capture leads 5x times than normal. Below mentioned are Optinly’s inbuilt marketing goals
 
 * Build Audience
-* Reduce Cart Abandonment
 * Increase Cart Value
 * Promote Special Offers
 * Gamification Popups
@@ -34,9 +34,12 @@ Optinly is the world’s first goal-based WordPress popup plugin with over 10+ i
 * Deliver Real-Time Social Proof
 * Upsell Existing Customers & more on the way. 
 
+> <strong>Optinly App</strong><br />
+> Optinly popups and tools are part of the standalone Optinly app. You will need to create an Optinly account to access our popup builder, opt-in form builder and conversion tools <a href="https://app.optinly.com/?utm_source=wp_directory&utm_medium=link&utm_campaign=wpreadme" title="Optinly">Click here to create an Optinly account now!</a>
+
 ==30+ Goal-Based WordPress Popup Templates==
 
-Optinly has with it 30+ goal-based WordPress popup templates. Every popup template is carefully handcrafted by industry experts - both the design and the copy lines blend together and make it a perfect template for the chosen marketing goal. All popup templates are responsive (works well on mobiles, desktops & tablets) and ensure they grab your visitor’s attention every time they visit your website.
+[Optinly](https://www.optinly.com) has with it 30+ goal-based WordPress popup templates. Every popup template is carefully handcrafted by industry experts - both the design and the copy lines blend together and make it a perfect template for the chosen marketing goal. All popup templates are responsive (works well on mobiles, desktops & tablets) and ensure they grab your visitor’s attention every time they visit your website.
 
 ==Different Types of Popups + Gamification Popups==
 
@@ -85,6 +88,21 @@ Our team is working hard to make Optinly the best WordPress popup plugin you’v
 Stay updated for our latest updates by reading our blogs. 
 
 We’ve given you all the reasons why you should start using Optinly. So, why don’t you use Optinly and grow your email list and conversions like crazy?
+
+== Free trial and Pricing ==
+Optinly is a Software-As-A-Service (SaaS) platform that provides both free and subscription-based services. You can get started with a 14-day free trial.
+
+- Free plan allows to use Optinly with limited features
+- Paid features have a 14-day free trial and are available on a subscription-basis
+
+[Check our pricing page](https://optinly.com/pricing) for more information.
+
+== More about Optinly ==
+
+- Visit Optinly website: [https://optinly.com](https://optinly.com)
+- Contact us for support: [https://optinly.com/support](https://optinly.com/support)
+- Terms and conditions: [https://optinly.com/terms-of-service](https://optinly.com/terms-of-service)
+- Privacy Policy: [https://optinly.com/privacy-policy](https://optinly.com/privacy-policy)
 
 == Installation ==
 

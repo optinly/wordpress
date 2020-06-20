@@ -14,6 +14,9 @@ Create popups and optin-in forms effortlessly to grow your subscribers, leads an
 == Description ==
 [Optinly](https://www.optinly.com) is a goal-based WordPress popup plugin with over 10+ inbuilt marketing scenarios making the overall task easy for marketers. 
 
+> <strong>Optinly App</strong><br />
+> Optinly popups and tools are part of the standalone Optinly app. You will need to create an Optinly account to access our popup builder, opt-in form builder and conversion tools <a href="https://app.optinly.com/?utm_source=wp_directory&utm_medium=link&utm_campaign=wpreadme" title="Optinly">Click here to create an Optinly account now!</a>
+
 Wouldn’t it be nice to have a WordPress popup plugin that has ready to use marketing scenarios with 30+ goal-based WordPress popup templates - skipping apart all the build from scratch stuff and have everything you need right in front of you? And that’s what Optinly is all about - helping businesses & marketers capture leads, drive conversions and engage visitors by making use of the 10+ marketing growth scenarios that come with 30+ goal-based WordPress popup templates.
 
 It’s true that 70% of visitors visit your website and never come back. And businesses can’t afford to lose potential customers like that. In an effort to capture visitors & email id’s, marketers use WordPress popup plugins.
@@ -33,9 +36,6 @@ We believe when there’s everything marketers want, right in front of them, lik
 * Guide Website Visitors
 * Deliver Real-Time Social Proof
 * Upsell Existing Customers & more on the way. 
-
-> <strong>Optinly App</strong><br />
-> Optinly popups and tools are part of the standalone Optinly app. You will need to create an Optinly account to access our popup builder, opt-in form builder and conversion tools <a href="https://app.optinly.com/?utm_source=wp_directory&utm_medium=link&utm_campaign=wpreadme" title="Optinly">Click here to create an Optinly account now!</a>
 
 ==30+ Goal-Based WordPress Popup Templates==
 

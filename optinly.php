@@ -5,9 +5,9 @@
  * Description: Popups, flyers, banners, sidebars for WordPress
  * Author: Optinly
  * Version: 1.0.2
- * Slug: optinly-for-wordpress
- * Text Domain: optinly-for-wordpress
- * Domain Path: /i18n/languages/
+ * Slug: optinly
+ * Text Domain: optinly
+ * Domain Path: /languages/
  * Plugin URI: https://www.optinly.com
  * Requires at least: 4.6.1
  * Contributers: Optinly

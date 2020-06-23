@@ -3,7 +3,7 @@ Contributors: Optinly
 Donate link: 
 Tags: popups, optins
 Requires at least: 4.0
-Tested up to: 4.8
+Tested up to: 5.4
 Stable tag: trunk
 Requires PHP: 5.6
 License: GPLv3 or later

@@ -16,7 +16,7 @@ defined('ABSPATH') or die;
 //Define plugin version
 defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.2');
 //Define plugin text domain
-defined('OPTINLY_TEXT_DOMAIN') or define('OPTINLY_TEXT_DOMAIN', 'optinly-for-wordpress');
+defined('OPTINLY_TEXT_DOMAIN') or define('OPTINLY_TEXT_DOMAIN', 'optinly');
 //Define plugin text domain
 defined('OPTINLY_SLUG') or define('OPTINLY_SLUG', 'optinly');
 //Define plugin base path

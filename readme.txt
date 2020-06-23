@@ -1,5 +1,5 @@
 === Optinly ===
-Contributors: Optinly
+Contributors: OptinlyHQ
 Donate link: 
 Tags: popups, optins
 Requires at least: 4.0

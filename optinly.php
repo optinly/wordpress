@@ -5,7 +5,7 @@ Gamification Plugin and Lead Capturing Forms
  * Plugin URI: https://www.optinly.com
  * Description: Popups, flyers, banners, sidebars for WordPress
  * Author: OptinlyHQ
- * Version: 1.0.3
+ * Version: 1.0.4
  * Slug: optinly
  * Text Domain: optinly
  * Domain Path: /languages/

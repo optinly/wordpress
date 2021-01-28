@@ -22,6 +22,7 @@ class Router
         } else {
             $site = new Site();
             add_action('wp_footer', array($site, 'includeScript'));
+            add_shortcode('optinly-campaign', array($site, 'addShortcode'));
         }
     }
 }

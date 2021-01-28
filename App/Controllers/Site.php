@@ -22,6 +22,16 @@ class Site
     }
 
     /**
+     * shortcode
+     * @param array $attributes
+     */
+    function addShortcode($attributes = array())
+    {
+        $all_attributes = wp_parse_args($attributes, array('id' => ''));
+        echo '<div class="optinly-embed-popup-' . $all_attributes['id'] . '"></div>';
+    }
+
+    /**
      * getting the PopUp js url
      * @return mixed|void
      */

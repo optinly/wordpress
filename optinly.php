@@ -5,7 +5,7 @@ Gamification Plugin and Lead Capturing Forms
  * Plugin URI: https://www.optinly.com
  * Description: Popups, flyers, banners, sidebars for WordPress
  * Author: OptinlyHQ
- * Version: 1.0.4
+ * Version: 1.0.5
  * Slug: optinly
  * Text Domain: optinly
  * Domain Path: /languages/
@@ -14,7 +14,7 @@ Gamification Plugin and Lead Capturing Forms
  */
 defined('ABSPATH') or die;
 //Define plugin version
-defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.3');
+defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.5');
 //Define plugin text domain
 defined('OPTINLY_TEXT_DOMAIN') or define('OPTINLY_TEXT_DOMAIN', 'optinly');
 //Define plugin text domain

@@ -11,5 +11,8 @@
       "Optinly\\App\\Models\\": "App/Models/",
       "Optinly\\App\\Helpers\\": "App/Helpers/"
     }
+  },
+  "require": {
+    "ext-json": "*"
   }
 }

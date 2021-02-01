@@ -48,6 +48,32 @@ jQuery(document).ready(function ($) {
             }
         });
     });
+    $(document).on('submit', '#optinly-settings-form', function (e) {
+        e.preventDefault();
+        let button = $(this).find('#submit');
+        $.ajax({
+            url: optinly_admin_data.ajax_url,
+            type: 'POST',
+            dataType: "json",
+            async: true,
+            data: $(this).serialize(),
+            beforeSend: function () {
+                button.val('Saving');
+                button.attr('disabled',true);
+            },
+            success: function (response) {
+                if(response.success){
+                    button.val('Save changes');
+                    button.attr('disabled',false);
+                    alert(response.data);
+                }
+            },
+            error: function () {
+                button.val('Save changes');
+                button.attr('disabled',false);
+            }
+        });
+    });
 
     /**
      * Manage response from the connection controller

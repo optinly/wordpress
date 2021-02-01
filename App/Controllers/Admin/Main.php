@@ -4,10 +4,11 @@ namespace Optinly\App\Controllers\Admin;
 defined('ABSPATH') or die;
 
 use Optinly\App\Api\optinlyApi;
-use Optinly\App\Helpers\Template;
+use Optinly\App\Controllers\Base;
 use Optinly\App\Models\Connection as ConnectionModel;
+use Optinly\App\Models\Settings as SettingsModel;
 
-class Main
+class Main extends Base
 {
     /**
      * Add menu for the plugin
@@ -48,17 +49,52 @@ class Main
     function manageMenus()
     {
         if (isset($_GET["page"]) && sanitize_text_field($_GET["page"]) == OPTINLY_SLUG) {
-            $template_helper = new Template();
-            $app = new optinlyApi();
-            $path = rtrim(OPTINLY_BASE_PATH, '/') . '/App/Views/Admin/connection.php';
-            $connection_model = new ConnectionModel();
-            $data = array(
-                'app_id' => $connection_model->getAppId(),
-                'is_app_connected' => $connection_model->isAppConnected(),
-                'app_dashboard_url' => $app->app_url
+            $active_tab = isset($_GET["tab"]) ? sanitize_text_field($_GET["tab"]) : 'connection';
+            $base_url = rtrim(admin_url(), '/') . '/admin.php?page=' . OPTINLY_SLUG;
+            $tabs = array(
+                array('src' => add_query_arg(array('tab' => 'connection'), $base_url), 'title' => 'Connection', 'id' => 'connection')
             );
-            $template_helper->setPath($path)->setData($data)->display();
+            if ($this->isPluginActive('mailpoet/mailpoet.php')) {
+                $tabs[] = array('src' => add_query_arg(array('tab' => 'settings'), $base_url), 'title' => 'Settings', 'id' => 'settings');
+            }
+            $path = rtrim(OPTINLY_BASE_PATH, '/') . '/App/Views/Admin/base.php';
+            require_once $path;
         }
+    }
+
+    /**
+     * Connection tab content
+     */
+    function connectionPage()
+    {
+        $app = new optinlyApi();
+        $path = rtrim(OPTINLY_BASE_PATH, '/') . '/App/Views/Admin/connection.php';
+        $connection_model = new ConnectionModel();
+        $app_id = $connection_model->getAppId();
+        $is_app_connected = $connection_model->isAppConnected();
+        $app_dashboard_url = $app->app_url;
+        require_once $path;
+    }
+
+    /**
+     * Connection tab content
+     */
+    function settingsPage()
+    {
+        $is_mailpoet_plugin_active = $this->isPluginActive('mailpoet/mailpoet.php');
+        $settings_model = new SettingsModel();
+        $settings = $settings_model->getSettings();
+        $is_mailpoet_enabled = $settings_model->getOption($settings, 'is_mailpoet_enabled', 'no');
+        $app_secret_key = $settings_model->getOption($settings, 'app_secret_key', '');
+        $mailpoet_list_id = $settings_model->getOption($settings, 'mailpoet_list_id', array());
+        $mailpoet_webhook = rtrim(site_url(), '/') . '/wp-json/optinly/v1/subscribe/mailpoet';
+        $mailpoet_lists = array();
+        if (class_exists(\MailPoet\API\API::class)) {
+            $mailpoet_api = \MailPoet\API\API::MP('v1');
+            $mailpoet_lists = $mailpoet_api->getLists();
+        }
+        $path = rtrim(OPTINLY_BASE_PATH, '/') . '/App/Views/Admin/settings.php';
+        require_once $path;
     }
 
     /**
@@ -116,5 +152,26 @@ class Main
         $connection_model = new ConnectionModel();
         $connection_model->saveAppStatus(0);
         wp_send_json_success(__('App disconnected successfully', OPTINLY_TEXT_DOMAIN));
+    }
+
+    /**
+     * Save the app settings
+     */
+    function saveAppSettings()
+    {
+        if (isset($_POST['nonce'])) {
+            if (wp_verify_nonce($_POST['nonce'], OPTINLY_SLUG . '_save_settings')) {
+                $post = $_POST;
+                unset($post['nonce'], $post['action']);
+                $settings = $this->clean($post);
+                $connection_model = new SettingsModel();
+                $connection_model->saveSettings($settings);
+                wp_send_json_success(__('Settings saved successfully', OPTINLY_TEXT_DOMAIN));
+            } else {
+                wp_send_json_error(__('Nonce not found', OPTINLY_TEXT_DOMAIN));
+            }
+        } else {
+            wp_send_json_error(__('Nonce not found', OPTINLY_TEXT_DOMAIN));
+        }
     }
 }

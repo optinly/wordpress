@@ -78,6 +78,22 @@ class Main extends Base
     }
 
     /**
+     * generate random string
+     * @param int $length
+     * @return string
+     */
+    function generateRandomString($length = 10)
+    {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString . uniqid();
+    }
+
+    /**
      * Connection tab content
      */
     function settingsPage()
@@ -86,7 +102,11 @@ class Main extends Base
         $settings_model = new SettingsModel();
         $settings = $settings_model->getSettings();
         $is_mailpoet_enabled = $settings_model->getOption($settings, 'is_mailpoet_enabled', 'no');
-        $app_secret_key = $settings_model->getOption($settings, 'app_secret_key', '');
+        $app_secret_key = $settings_model->getSecretKey();
+        if (empty($app_secret_key)) {
+            $app_secret_key = $this->generateRandomString(20);
+            $settings_model->saveSecretKey($app_secret_key);
+        }
         $mailpoet_list_id = $settings_model->getOption($settings, 'mailpoet_list_id', array());
         $mailpoet_webhook = rtrim(site_url(), '/') . '/wp-json/optinly/v1/subscribe/mailpoet';
         $mailpoet_lists = array();
@@ -163,7 +183,7 @@ class Main extends Base
         if (isset($_POST['nonce'])) {
             if (wp_verify_nonce($_POST['nonce'], OPTINLY_SLUG . '_save_settings')) {
                 $post = $_POST;
-                unset($post['nonce'], $post['action']);
+                unset($post['nonce'], $post['action'], $post['app_secret_key']);
                 $settings = $this->clean($post);
                 $connection_model = new SettingsModel();
                 $connection_model->saveSettings($settings);

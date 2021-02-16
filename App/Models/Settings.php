@@ -5,11 +5,12 @@ defined('ABSPATH') or die;
 
 class Settings
 {
-    public $settings_db_key;
+    public $settings_db_key,$secret_key;
 
     function __construct()
     {
         $this->settings_db_key = OPTINLY_SLUG . "_settings";
+        $this->secret_key = OPTINLY_SLUG . "_secret_key";
     }
 
     /**
@@ -20,6 +21,25 @@ class Settings
     function saveSettings($settings)
     {
         return update_option($this->settings_db_key, $settings, true);
+    }
+
+    /**
+     * Saving key to the DB
+     * @param $key
+     * @return bool
+     */
+    function saveSecretKey($key)
+    {
+        return update_option($this->secret_key, $key, true);
+    }
+
+    /**
+     * Saving key to the DB
+     * @return bool
+     */
+    function getSecretKey()
+    {
+        return get_option($this->secret_key, false);
     }
 
     /**

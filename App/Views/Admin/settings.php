@@ -18,8 +18,11 @@ defined('ABSPATH') or die;
             <td class="forminp forminp-text">
                 <input type="text" name="app_secret_key" class="regular-text"
                        id="<?php echo OPTINLY_SLUG ?>app_secret_key"
-                       placeholder="Enter secret key"
+                       placeholder="Enter secret key" readonly
                        value="<?php echo $app_secret_key ?>">
+                <p>
+                    You need to enter the above secret key in your optinly dashboard
+                </p>
             </td>
         </tr>
         <tr>

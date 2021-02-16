@@ -57,6 +57,7 @@ class Main extends Base
             if ($this->isPluginActive('mailpoet/mailpoet.php')) {
                 $tabs[] = array('src' => add_query_arg(array('tab' => 'settings'), $base_url), 'title' => 'Settings', 'id' => 'settings');
             }
+            $extra = array();
             $path = rtrim(OPTINLY_BASE_PATH, '/') . '/App/Views/Admin/base.php';
             require_once $path;
         }

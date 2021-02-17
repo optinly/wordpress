@@ -48,43 +48,48 @@ class Site extends Base
     {
         $settings_model = new SettingsModel();
         $settings = $settings_model->getSettings();
-        $app_secret_key = $settings_model->getOption($settings, 'app_secret_key', '');
-        $requestParams = $request->get_params();
-        $defaultRequestParams = array(
-            'lead' => array(
-                'name' => '',
-                'first_name' => '',
-                'last_name' => '',
-                'email' => '',
-                'phone' => '',
-                'additional_data' => array()
-            ),
-            'digest' => '',
-        );
-        $params = wp_parse_args($requestParams, $defaultRequestParams);
-        $cipher_text_raw = json_encode($params['lead'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-        $reverse_hmac = hash_hmac('sha256', $cipher_text_raw, $app_secret_key);
-        if (hash_equals($reverse_hmac, $params['digest'])) {
-            $type = $request->get_param('type');
-            switch ($type) {
-                case "mailpoet":
-                    try {
-                        $this->handleMailpoet($params['lead'], $settings, $settings_model);
-                        $status = 200;
-                        $response = array('success' => true, 'RESPONSE_CODE' => 'PROCESSED', 'message' => 'User subscribed!');
-                    } catch (\Exception $e) {
-                        $status = 500;
-                        $response = array('success' => true, 'RESPONSE_CODE' => 'ERROR', 'message' => $e->getMessage());
-                    }
-                    break;
-                default:
-                    $status = 404;
-                    $response = array('success' => false, 'RESPONSE_CODE' => 'INTEGRATION_NOT_FOUND', 'message' => 'Chosen integration not available!');
-                    break;
+        $app_secret_key = $settings_model->getSecretKey();
+        if(!empty($app_secret_key)) {
+            $requestParams = $request->get_params();
+            $defaultRequestParams = array(
+                'lead' => array(
+                    'name' => '',
+                    'first_name' => '',
+                    'last_name' => '',
+                    'email' => '',
+                    'phone' => '',
+                    'additional_data' => array()
+                ),
+                'digest' => '',
+            );
+            $params = wp_parse_args($requestParams, $defaultRequestParams);
+            $cipher_text_raw = json_encode($params['lead'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+            $reverse_hmac = hash_hmac('sha256', $cipher_text_raw, $app_secret_key);
+            if (hash_equals($reverse_hmac, $params['digest'])) {
+                $type = $request->get_param('type');
+                switch ($type) {
+                    case "mailpoet":
+                        try {
+                            $this->handleMailpoet($params['lead'], $settings, $settings_model);
+                            $status = 200;
+                            $response = array('success' => true, 'RESPONSE_CODE' => 'PROCESSED', 'message' => 'User subscribed!');
+                        } catch (\Exception $e) {
+                            $status = 500;
+                            $response = array('success' => true, 'RESPONSE_CODE' => 'ERROR', 'message' => $e->getMessage());
+                        }
+                        break;
+                    default:
+                        $status = 404;
+                        $response = array('success' => false, 'RESPONSE_CODE' => 'INTEGRATION_NOT_FOUND', 'message' => 'Chosen integration not available!');
+                        break;
+                }
+            } else {
+                $status = 400;
+                $response = array('success' => false, 'RESPONSE_CODE' => 'SECURITY_BREACH', 'message' => 'Security breached!');
             }
-        } else {
+        }else{
             $status = 400;
-            $response = array('success' => false, 'RESPONSE_CODE' => 'SECURITY_BREACH', 'message' => 'Security breached!');
+            $response = array('success' => false, 'RESPONSE_CODE' => 'NO_SECRET_KEY', 'message' => 'No secret key found');
         }
         return new \WP_REST_Response($response, $status);
     }

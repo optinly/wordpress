@@ -17,8 +17,15 @@ class Site extends Base
             $app_id = $model->getAppId();
             $popup_url = $this->getPopupJs();
             ?>
-            <script id="optinly_script" async="true" data-app_id="<?php echo $app_id; ?>"
-                    src="<?php echo $popup_url; ?>"></script>
+            <script>
+                !function (e, c) {
+                    !function (e) {
+                        const o = c.createElement("script");
+                        o.async = "true", o.dataset.app_id = "<?php echo $app_id?>",o.id="optinly_script",
+                            o.type = "application/javascript", o.src = e, c.body.appendChild(o)
+                    }("<?php echo $popup_url ?>")
+                }(window, document);
+            </script>
             <?php
         }
     }

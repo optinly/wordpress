@@ -1,11 +1,10 @@
 <?php
 /**
- * Plugin name: WordPress Popup Plugin by Optinly - Exit-intent popups,
-Gamification Plugin and Lead Capturing Forms
+ * Plugin name: Optinly - WordPress Popup Plugin
  * Plugin URI: https://www.optinly.com
- * Description: Popups, flyers, banners, sidebars for WordPress
+ * Description: Exit-intent popups, Gamification popups, sign up forms, Lead Capturing, flyers, banners, sidebars for WordPress
  * Author: OptinlyHQ
- * Version: 1.0.5
+ * Version: 1.0.7
  * Slug: optinly
  * Text Domain: optinly
  * Domain Path: /languages/
@@ -14,7 +13,7 @@ Gamification Plugin and Lead Capturing Forms
  */
 defined('ABSPATH') or die;
 //Define plugin version
-defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.5');
+defined('OPTINLY_VERSION') or define('OPTINLY_VERSION', '1.0.7');
 //Define plugin text domain
 defined('OPTINLY_TEXT_DOMAIN') or define('OPTINLY_TEXT_DOMAIN', 'optinly');
 //Define plugin text domain

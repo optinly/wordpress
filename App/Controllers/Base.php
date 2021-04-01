@@ -9,11 +9,12 @@ class Base
      */
     function isPluginActive($plugin)
     {
-        $active_plugins = apply_filters('active_plugins', get_option('active_plugins', array()));
+        return false;
+        /*$active_plugins = apply_filters('active_plugins', get_option('active_plugins', array()));
         if (is_multisite()) {
             $active_plugins = array_merge($active_plugins, get_site_option('active_sitewide_plugins', array()));
         }
-        return in_array($plugin, $active_plugins, false) || array_key_exists($plugin, $active_plugins);
+        return in_array($plugin, $active_plugins, false) || array_key_exists($plugin, $active_plugins);*/
     }
 
     /**

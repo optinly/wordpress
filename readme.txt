@@ -23,7 +23,7 @@ Optinly comes with different types of popup forms like **email popups/subscripti
 
 Also, the pre-existing growth marketing goals like **build audience, promote special offers, increase cart value, reduce cart abandonment, etc** helps you create popup campaigns quickly. All growth goals are backed by appropriate popup templates, making the campaign creation process super easy!
 
-This free popup tool comes with a clean UI/UX and has a lot of sophisticated features. Let’s look into Optinly and know how it can help with your list building/lead generation process, your business growth and also the other powerful features that come along.
+This free popup tool comes with a clean UI/UX and has a lot of sophisticated features. Let’s look into Optinly and know how it can help with the list building/lead generation process, your business growth and also the other powerful features that come along.
 
 > <strong>Optinly App</strong><br />
 > Optinly popups and tools are part of the standalone Optinly app. You will need to create an Optinly account to access our popup builder, opt-in form builder and conversion tools <a href="https://app.optinly.com/?utm_source=wp_directory&utm_medium=link&utm_campaign=wpreadme" title="Optinly">Click here to create a free Optinly account now!</a>

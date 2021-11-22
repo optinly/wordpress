@@ -19,7 +19,7 @@ Capture more leads & increase conversions with Optinly. Use 75+ templates and ad
 
 With Optinly’s popup builder plugin, you can [create responsive popup forms](https://app.optinly.com/?utm_source=referral&utm_medium=wordpressrepo&utm_campaign=readme) in under a few minutes, thanks to the **readymade free website popup templates**.
 
-Optinly comes with different types of popup forms like **email popups/subscription popups, spin the wheel popups, fullscreen overlays, countdown popups** and more. This helps you achieve all your business goals with extreme ease and comfort.
+Optinly comes with different types of popup forms like **email popups/subscription popups,spin the wheel popups, fullscreen overlays, countdown popups** and more. This helps you achieve all your business goals with extreme ease and comfort.
 
 Also, the pre-existing growth marketing goals like **build audience, promote special offers, increase cart value, reduce cart abandonment, etc** helps you create popup campaigns quickly. All growth goals are backed by appropriate popup templates, making the campaign creation process super easy!
 

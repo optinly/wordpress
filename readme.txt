@@ -4,7 +4,7 @@ Donate link:
 Tags: popups, exit-intent, lightbox, newsletter, optin
 Requires at least: 4.0
 Tested up to: 5.6
-Stable tag: 1.0.6
+Stable tag: 1.0.10
 Requires PHP: 5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -380,6 +380,9 @@ Optinly popup tool UI/UX overview
 
 == Changelog ==
 
+= 1.0.10 =
+* Mailpoet integration support added
+
 = 1.0.5 =
 * Shortcode support added [optinly-campaign ]
 
@@ -391,5 +394,4 @@ Optinly popup tool UI/UX overview
 
 
 == Upgrade Notice ==
-
 

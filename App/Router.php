@@ -26,7 +26,7 @@ class Router
             $site = new Site();
             add_action('wp_footer', array($site, 'includeScript'));
             add_shortcode('optinly-campaign', array($site, 'addShortcode'));
-            //add_action('rest_api_init', array($site, 'registerAPIEndpoints'));
+            add_action('rest_api_init', array($site, 'registerAPIEndpoints'));
         }
     }
 }

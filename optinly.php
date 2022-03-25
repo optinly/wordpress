@@ -4,7 +4,7 @@
  * Plugin URI: https://www.optinly.com
  * Description: Exit-intent popups, Gamification popups, sign up forms, Lead Capturing, flyers, banners, sidebars for WordPress
  * Author: OptinlyHQ
- * Version: 1.0.7
+ * Version: 1.0.10
  * Slug: optinly
  * Text Domain: optinly
  * Domain Path: /languages/
